@@ -11,3 +11,12 @@ function writeToFile(filePath, content) {
 }
 
 module.exports = writeToFile;
+
+let data = "Learning how to write in a file.";
+
+// Specify the file path
+let filePath = 'Output.txt';
+
+writeToFile(filePath, data);
+
+module.exports = writeToFile;
